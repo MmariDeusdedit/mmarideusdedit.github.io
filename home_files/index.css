@@ -156,7 +156,7 @@
 }
 #about-us>header{
   color: #222;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 #about-us .body{
   display: flex;
@@ -208,7 +208,7 @@
 }
 .categories header{
   color: rgba(255,255,255,1);
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .categories .category{
   display: flex;
@@ -311,7 +311,7 @@
 }
 .signup header{
   color: rgba(255,255,255,1);
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 .social * {
     margin: 8px 12px;
