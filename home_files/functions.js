@@ -8,11 +8,13 @@ function index(){
   var t =  document.querySelector('.testimonials');
 
   window.addEventListener('scroll',function(){
-     hb.style.transform = "translateY("+window.scrollY/1.85+"px)";
+     hb.style.transform = "translateY("+window.scrollY/1.70+"px)";
      h.style.backgroundColor = "rgba(0,0,0,"+Math.sin(window.scrollY*Math.PI/(2*h.offsetHeight))*0.8+")";
      t.style.opacity = 1 -(window.scrollY/h.offsetHeight)*2.5;
      arr.style.opacity = 1 -(window.scrollY/h.offsetHeight)*2.5;
+     hbw.style.transform = "translateY("+(window.scrollY/h.offsetHeight)*-55+"px)";
      hbw.style.opacity = 1 -(window.scrollY/h.offsetHeight)*2.5;
+     hbs.style.transform = "translateY("+(window.scrollY/h.offsetHeight)*-100+"px)";
      hbs.style.opacity = 1 -(window.scrollY/h.offsetHeight)*2.5;
   });
 }
