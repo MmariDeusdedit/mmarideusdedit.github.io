@@ -62,20 +62,19 @@
   width: 100%;
   z-index: 1;
 }
+.hero-body .phrase{
+  color: #fff;
+  font-size: 2.5em;
+  justify-content: center;
+  text-align: center;™
+}
 .hero-body .welcome{
   font-family: segoe;
-  font-size: 2em;
+  font-size: 1em;
   color: #fff;
   margin-bottom: 16px;
   justify-content: center;
   text-align: center;
-}
-.hero-body .phrase{
-  color: #fff;
-  font-size: 2.5em;
-  margin-bottom: 16px;
-  justify-content: center;
-  text-align: center;™
 }
 .hero-body .phrase span{
   background:#64DD17;
