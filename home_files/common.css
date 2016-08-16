@@ -94,8 +94,8 @@ body{
 
 @media screen and (max-width : 450px) {
 
-  body, input, select, textarea, label{
-    font-size:75% !important;
+  body, select, textarea, label{
+    font-size:85% !important;
   }
 
 }
