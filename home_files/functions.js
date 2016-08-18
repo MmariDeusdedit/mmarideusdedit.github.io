@@ -43,4 +43,11 @@ function home(){
     else
       curphrase++;
   }, testimonials.interval);
+
+  $(".character").each(function(index, value){
+    $(this).addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInUp',
+      offset: 100 + 50 * index
+    });
+  })
 }
