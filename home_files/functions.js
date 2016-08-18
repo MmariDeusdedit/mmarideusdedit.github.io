@@ -18,6 +18,10 @@ function index(){
      hbs.style.opacity = 1 -(window.scrollY/h.offsetHeight)*2.5;
   });
   //parallax effect for the hero section
+}
+
+function home(){
+
 
   var testimonials = {
     phrases : [
