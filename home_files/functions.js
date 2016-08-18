@@ -21,8 +21,6 @@ function index(){
 }
 
 function home(){
-
-
   var testimonials = {
     phrases : [
       'Collaborate on projects that would have otherwise been difficult on your own',
@@ -46,4 +44,10 @@ function home(){
       curphrase++;
   }, testimonials.interval);
 
+  $(".character").each(function(index, value){
+    $(this).addClass("hidden").viewportChecker({
+      classToAdd: 'visible animated fadeInUp',
+      offset: 100 + 50 * index
+    });
+  })
 }
