@@ -20,18 +20,18 @@ function index(){
   //parallax effect for the hero section
 }
 
-function home(){
-  var testimonials = {
-    phrases : [
-      'Collaborate on projects that would have otherwise been difficult on your own',
-      'Meet great people, make great friends and build lasting alliances',
-      'Get the help you need from people you can trust'
-    ],
-    interval : 6000,
-    str: 1
-  };
-  var curphrase = testimonials.str, lim = testimonials.phrases.length;
+var testimonials = {
+  phrases : [
+    'Collaborate on projects that would have otherwise been difficult on your own',
+    'Meet great people, make great friends and build lasting alliances',
+    'Get the help you need from people you can trust'
+  ],
+  interval : 6000,
+  str: 1
+};
+var curphrase = testimonials.str, lim = testimonials.phrases.length;
 
+function home(){
   setInterval(function () {
     $('.testimony')
     .fadeOut(250, function(){
@@ -43,11 +43,4 @@ function home(){
     else
       curphrase++;
   }, testimonials.interval);
-
-  $(".character").each(function(index, value){
-    $(this).addClass("hidden").viewportChecker({
-      classToAdd: 'visible animated fadeInUp',
-      offset: 100 + 50 * index
-    });
-  })
 }
